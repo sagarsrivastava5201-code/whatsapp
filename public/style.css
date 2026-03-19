@@ -13,3 +13,224 @@ display:inline-block ;
     padding: 5px 15px;
     border-radius:10px ;
 }
+
+/* this apply only  create-page  */
+.create-page {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form container */
+.create-page form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.create-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input + textarea */
+.create-page input,
+.create-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus */
+.create-page input:focus,
+.create-page textarea:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+/* Button */
+.create-page button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Hover */
+.create-page button:hover {
+    background: #5a67d8;
+}
+
+
+/* this apply only edit page  */
+.edit-page {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container look */
+.edit-page form {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.edit-page h3 {
+    position: absolute;
+    top: 30px;
+    color: white;
+}
+
+/* Info text */
+.edit-page p {
+    position: absolute;
+    top: 70px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Textarea */
+.edit-page textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+.edit-page textarea:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 5px rgba(255,126,95,0.5);
+}
+
+/* Button */
+.edit-page button {
+    width: 100%;
+    padding: 10px;
+    background: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover */
+.edit-page button:hover {
+    background: #e96a50;
+}
+
+
+
+.home-page {
+    background: linear-gradient(135deg, #cfd9df, #e2ebf0); /* soft background */
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+/* Heading */
+.home-page h3 {
+    font-size: 28px;
+    color: #1b5e57;
+}
+
+.home-page h4 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.home-page .new {
+    padding: 8px 18px;
+    background: #25d366;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Chat card */
+.home-page .Chat {
+    background: #b2d8d8;  /* soft blue-green */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 650px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* From / To */
+.home-page .Chat i {
+    color: #333;
+    font-size: 15px;
+}
+
+/* Message box */
+.home-page .msg {
+    background: #7fa6d9;  /* blue box like your image */
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+/* Message text */
+.home-page .msg p {
+    color: white;
+    font-size: 15px;
+}
+
+/* Buttons */
+.home-page .msg form {
+    margin-top: 8px;
+}
+
+.home-page .edit {
+    background: white;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.home-page .delete {
+    background: white;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Divider */
+.home-page hr {
+    margin: 10px 0;
+}
+
+/* Time */
+.home-page .Chat p:last-child {
+    font-size: 13px;
+    color: #222;
+}

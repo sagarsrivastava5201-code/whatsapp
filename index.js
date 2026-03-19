@@ -93,16 +93,16 @@ main()
     console.log("Error:", err);
   });
 
-  let Chat1 = new Chat({
-    from: "sagar", 
-    to: "anshika", 
-    msg: "send me your exam sheets",
-    created_at: new Date(),
-  });
+  // let Chat1 = new Chat({
+  //   from: "sagar", 
+  //   to: "anshika", 
+  //   msg: "send me your exam sheets",
+  //   created_at: new Date(),
+  // });
 
-  Chat1.save().then((res)=>{
-    console.log (res)
-  }).catch((err)=>{
-    console.log (err)
-  })
+  // Chat1.save().then((res)=>{
+  //   console.log (res)
+  // }).catch((err)=>{
+  //   console.log (err)
+  // })
   
